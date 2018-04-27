@@ -25,25 +25,5 @@ __Interests__
 * getting better at whatever i'm doing at any given time
 * reading books
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+_Currently working on:_
+Learning about how best to implement Devise and RailsAdmin together in such a small application. I had originally intended on using Devise for admin functionality but would like to try RailsAdmin. Currently reading about how they can work together and have distinct roles. 
