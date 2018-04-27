@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <% if current_user.is_admin == true %>
+    <% if current_user %>
       <%= render('layouts/admin_menu') %>
     <% end %>
     <%= flash[:notice] %>
