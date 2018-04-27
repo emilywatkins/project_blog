@@ -26,4 +26,4 @@ __Interests__
 * reading books
 
 _Currently working on:_
-Learning about how best to implement Devise and RailsAdmin together in such a small application. I had originally intended on using Devise for admin functionality but would like to try RailsAdmin. Currently reading about how they can work together and have distinct roles. 
+Looked in to adding flash message for devise form when you try to log in and you haven't created an account yet. i found the messages in the yml file but i'm not sure how to specify the situation. i'll look in to this more, but i'd like to get some minimum functionality in first.
