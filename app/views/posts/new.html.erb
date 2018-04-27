@@ -1,0 +1,17 @@
+<div class="container">
+  <h2>add a new post</h2>
+  
+  <%= render('layouts/errors', :object => @post) %>
+
+  <%= form_for @post do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <br>
+    <br>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+    <br>
+    <br>
+    <p><%= f.submit %></p>
+  <% end %>
+</div>
