@@ -25,5 +25,13 @@ __Interests__
 * getting better at whatever i'm doing at any given time
 * reading books
 
-_Currently working on:_
-Looked in to adding flash message for devise form when you try to log in and you haven't created an account yet. i found the messages in the yml file but i'm not sure how to specify the situation. i'll look in to this more, but i'd like to get some minimum functionality in first.
+## Current functionality
+* Admin login - Devise
+* Admin functionality only shown to admin, regardless if non-admin site user is logged in or not
+* Welcome homepage with navigation to projects page
+* Projects page has link to detailed project content
+
+## Future functionality
+* Add project detail table and routing to show entire post
+* Additional styling
+* Integration and unit testing
