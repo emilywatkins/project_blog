@@ -22,12 +22,25 @@
   color: #4D4D4D;
 }
 
-#about-me {
-  text-align: center;
+#outer-container {
   background-color: #4D4D4D;
-  color: white;
 }
 
-ul {
+#about-me {
+  background-color: #4D4D4D;
+  text-align: center;
+  color: white;
+  width: 640px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+li {
   list-style-type: none;
+}
+
+h4 {
+  text-decoration: underline;
 }
