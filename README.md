@@ -1,4 +1,30 @@
-# README
+# Portfolio site
+
+#### Rails Unit, exercise in Ruby, Rails, Routing, Authorization and Authentication, PostgreSQL - 4.27.18
+
+#### Emily Watkins
+
+## Description
+
+This is a personal portfolio website. It includes information about me, contact, interests, and posts with featured projects.
+
+## Setup
+
+rails 5.2.0
+ruby 2.4.1
+
+Clone this repository:
+
+`$ bundle install`
+`$ rails s`
+
+Create database on local computer
+
+`$ rails db:create`
+
+Navigate to http://localhost:3000/
+
+## Strengths exercise
 
 __Strengths__
 * using my brain
@@ -32,6 +58,21 @@ __Interests__
 * Projects page has link to detailed project content
 
 ## Future functionality
-* Add project detail table and routing to show entire post
-* Additional styling
 * Integration and unit testing
+* Seed database
+* Add projects to show off
+* Explore RailsAdmin for admin functionality instead of Devise since there should only be one admin and users should not need to log in to view content.
+
+## Technologies Used
+
+* Ruby
+* Rails
+* PostgreSQL
+* Capybara, FactoryBot, (soon SimpleCov) and rspec for upcoming testing
+* Devise for admin auth and auth
+
+## License
+
+Licensed under the MIT License.
+
+Copyright (c) 2018 Emily Watkins
