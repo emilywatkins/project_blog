@@ -1,12 +1,33 @@
 require 'rails_helper'
 
-# instance of User where is_admin = true
+# context block to dry up code
+# describe 'post page' do
+#   context 'when user is an admin' do
+#     before(:each) do
+#       @admin = create(:user, email: 'admin@gmail.com', is_admin: true)
+#     end
+#
+#     it 'can edit posts' do
+#       ...
+#     end
+#
+#   end
+#
+#   context 'when user is not an admin' do
+#     before(:each) do
+#       @user = create(:user, email: 'user@gmail.com')
+#     end
+#
+#     it "cannot edit posts" do
+#       ...
+#     end
+#   end
+# end
 
 def login(email, password)
   visit '/users/sign_in'
   fill_in 'Email', :with => email
   fill_in 'Password', :with => password
-  # fill_in 'Password confirmation', :with => password
   click_button 'Log in'
 end
 
